@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#appbar {
+  background-color: white;
+  color: navy;
+  box-shadow: none;
+}
+
+#sidebar {
+  min-width: 400px;
+}
+
+#list {
+  margin: auto;
+  width: 50%;
+}
+
+#drawer {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+h3 {
+  color: navy;
+  font-size: 54px;
+}
+.rest {
+  margin-top: 30px;
+}
+.restb {
+  margin-bottom: 20px;
+}
+p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: mediumspringgreen;
+}
+
+#listeditems:hover {
+  color: blueviolet;
+}
+
+#typo,
+#typo2 {
+  color: navy;
+  margin-left: 100px;
+}
+
+#typo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+#typo2 {
+  padding-top: 15px;
+  color: blueviolet;
+  font-size: 24px;
+}
+.box {
+  border: none;
+  border-radius: 5px;
+  margin-left: 100px;
+  width: 20%;
+  margin-top: 20px;
+  display: inline-block;
+  position: relative;
+}
+#scrollBox {
+  background-color: rgb(242, 240, 240);
+  border: none;
+  color: navy;
+  height: 300px;
+  margin: auto;
+  width: 30%;
+  position: relative;
+  border-radius: 5px;
+  overflow: scroll;
+  margin-right: 60px;
+  bottom: 300px;
+  border-top: 2px, solid, black;
+}
+.card {
+  background-color: rgb(242, 240, 240);
+  border: none;
+  color: navy;
+}
+
+.icons {
+  color: mediumspringgreen;
+  transform: scale(1.5);
+  margin: 10px;
+  padding-bottom: 5px;
+}
+.num {
+  margin: 10px;
+}
+.numInfo {
+  margin: 10px;
+}
+.percent {
+  display: flex;
+  float: right;
+  position: relative;
+  bottom: 22px;
+  margin: 10px;
+  font-style: italic;
+}
+
+.bigBox {
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 60%;
+}
+.bigCard {
+  background-color: rgb(242, 240, 240);
+  border: none;
+  color: navy;
+  height: 300px;
+}
+.rev {
+  color: navy;
+  font-size: 24px;
+}
+.revNum {
+  font-size: 50px;
+  color: mediumspringgreen;
+}
+#listScroll {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px, solid, black;
+}
+#recTra {
+  font-size: 24px;
+  color: mediumspringgreen;
+}
+#cost {
+  background-color: mediumspringgreen;
+  width: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
